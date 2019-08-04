@@ -1,0 +1,110 @@
+.wilson_ads_wrapper{
+  font-family: 'Helvetica';
+}
+.wilson_ads_wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.wilson_ads_container{
+  float: left;
+  overflow: hidden;
+  height: 138px;
+  box-sizing: border-box;
+}
+
+.wilson_ads_container1{
+  width: 20%;
+}
+.wilson_ads_container2{
+  padding: 15px 0 0 10px;
+  width: 55%;
+}
+.wilson_ads_container3{
+  width: 25%;
+  padding: 20px;
+  text-align: center;
+  background-color: #1a1a1a;
+}
+.wilson_ad_button{
+ padding: 10px; 
+}
+
+.wilson_ads_counter{
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  display: table;
+}
+
+.wilson_ads_text1{
+  display: none
+}
+
+.wilson_ads_text2{
+  width: 100%;
+  display: table;
+  color: #D4C700;
+  font-size: 23px !important;
+  font-weight: bold;
+  line-height: 1;
+  padding: 10px 0;
+}
+.wilson_ads_text3{
+  width: 100%;
+  display: table;
+  color: white;
+  font-size: 14px !important;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.wilson_ad_white{
+  color: white;
+  font-size: 12px !important;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.wilson_ad_button{
+ padding: 10px; 
+}
+
+/* desktop */
+@media screen and (min-width: 1272px){
+  .wilson_ads_text1{
+    float: left;
+    width: 40%;
+    padding: 11px;
+    box-sizing: border-box;
+    display: table;
+    color: white;
+    font-size: 14px !important;
+    font-weight: bold;
+    line-height: 1;
+  }
+  .wilson_ads_counter{
+    width: 60%;
+  }
+}
+@media screen and (max-width: 800px){
+  .wilson_ads_container2{
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+  .wilson_ads_container1{
+    display: none;
+  }
+  .wilson_ads_container3{
+    width: 100%;
+  }
+  .wilson_ads_counter{
+    width: 250px;
+    margin: 0 auto !important;
+  }
+  .dsCountDown{
+    float: inherit !important;
+    margin-top: 12px !important;
+  }
+}
